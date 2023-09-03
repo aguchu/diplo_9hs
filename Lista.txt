@@ -1,7 +1,8 @@
 fruta
 verduras
 bananas
-manzanas
 galletitas
 naranjas
 palta
+queso
+leche
