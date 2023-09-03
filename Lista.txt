@@ -1,3 +1,7 @@
-pan
 fruta
 verduras
+bananas
+manzanas
+galletitas
+naranjas
+palta
