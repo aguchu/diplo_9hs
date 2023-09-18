@@ -1,0 +1,52 @@
+h1 {
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+.centrado {
+    text-align: center;
+}
+
+h2 {
+    color: brown;
+    background-color: antiquewhite;
+}
+
+h3 {
+    font-family: arial black;
+    font-weight: bold;
+    font size: 30px;
+    color: #fff;
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+}
+
+ul {
+    list-style: inside;
+    list-style-image: url("download.png")
+}
+
+h4 {
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: chocolate;
+}
+
+#rojo {
+    width: 250px;
+    /*height: 250px;*/
+    background-color: lightcoral;
+    border: 2px dotted blueviolet;
+    padding: 25px;
+    box-sizing: border-box;
+    margin-left: 50px;
+}
+
+#rojo p {
+    color: black;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
