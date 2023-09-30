@@ -1,0 +1,36 @@
+h1{
+    /*comentario en CSS*/
+    color: red;
+    background-color: yellow;
+}
+
+h2{
+    color: blue;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+p{
+    color: green;
+    line-height: 25px; 
+}
+
+.destacados {
+    font-weight: bold;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#rojo{
+    width: 250px;
+    /*height: 250px;*/
+    background-color: lightcoral;
+    border: 2px dotted blueviolet;
+    padding: 25px;
+    box-sizing: border-box;
+    margin-left: 350px;
+}
+
+#rojo p{
+color: black;
+}
