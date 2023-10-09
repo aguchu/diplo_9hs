@@ -1,0 +1,125 @@
+.contenedor {
+    background-color: white;
+    height: 400px;
+    width: 400px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: white;
+
+}
+
+.item {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px
+    
+}
+
+.item2 {
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px
+}
+
+.item3 {
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px
+}
+
+.contenedor2{
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    color: white;
+    display: inline-flex;
+    flex-direction: row-reverse;
+    align-items: center;
+      
+
+}
+
+.item4 {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px
+    
+}
+
+.item5 {
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px
+}
+
+.item6 {
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px
+}
+
+.contenedor3{
+    background-color: white;
+    height: 300px;
+    width: 500px;
+    color: white;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item7 {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px
+    
+}
+
+.item8 {
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px
+}
+
+.item9 {
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px
+}
