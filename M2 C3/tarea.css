@@ -1,0 +1,58 @@
+body {
+    padding: 0;
+    margin: 0
+
+}
+
+.contenedor {
+    background: grey;
+    width: 100%
+    
+}
+
+
+nav {
+    background-color: coral;
+    float: none;
+    width: 100%;
+    
+}
+
+nav ul {
+    margin: 0;
+}
+
+nav ul li a {
+    padding: 0.5em;
+    display: block;
+    color: black;
+    text-decoration: none;
+
+}
+
+section {
+    background-color: bisque;
+    float: none;
+    width: 100%;
+    margin: 0;
+    border-top: solid black;
+    padding: 0.9em;
+    align-items: center;
+    
+    
+}
+
+aside {
+    background-color: cadetblue;
+    float: none;
+    width: 100%;
+    margin: 0;
+    border-top: solid black;
+    border-bottom: solid black;
+    align-items: center;
+    padding: 0.9em;
+}
+
+p{
+    font-size: 100%;
+}
