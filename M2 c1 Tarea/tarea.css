@@ -42,14 +42,20 @@ h4 {
     padding: 25px;
     box-sizing: border-box;
     margin-left: 50px;
-    column-count: 4;
+    
     background: rgb(2, 0, 36);
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(245, 202, 168, 1) 0%, rgba(219, 92, 46, 1) 35%, rgba(255, 119, 0, 1) 100%);
 }
 
 #rojo p {
     color: black;
+	margin:0;
     
+}
+
+.columnas{
+	column-count: 4;
+	
 }
 
 img {
@@ -58,5 +64,5 @@ img {
 }
 
 h5{
-    text-align: left;
+    text-align: center;
 }
