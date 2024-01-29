@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div for="texto">Mensaje:</div>
+    <textarea id="texto" rows="4" cols="50" oninput="actualizarContador()"></textarea>
+
+    <p id="contador">Caracteres restantes: <span id="caracteres-restantes">100</span></p>
+
+    <script>
+        function actualizarContador() {
+
+            var textarea = document.getElementById("texto");
+            var contador = document.getElementById("caracteres-restantes");
+            var longitudActual = textarea.value.length;
+            var limiteCaracteres = 100;
+            var caracteresRestantes = limiteCaracteres - longitudActual;
+            contador.innerText = caracteresRestantes;
+        }
+    </script>
+
+</body>
+
+</html>

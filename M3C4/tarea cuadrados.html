@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   </head>
+
+<body>
+    
+
+<div id="square1" style="border: solid black 100px" class="square" onclick="changeColor('square1')"></div>
+<div id="square2" style="border: solid salmon 100px" class="square" onclick="changeColor('square2')"></div>
+<div id="square3" style="border: solid yellow 100px" class="square" onclick="changeColor('square3')"></div>
+
+<script>
+    function changeColor(squareId) {
+        var square = document.getElementById(squareId);
+        var colors = ["#ff0000", "#00ff00", "#0000ff"]; // Colores diferentes para cada cuadrado
+        var randomColor = colors[Math.floor(Math.random() * colors.length)];
+        document.body.style.backgroundColor = randomColor;
+        square.style.backgroundColor = randomColor;
+    }
+</script>
+</body>
+
+</html>
