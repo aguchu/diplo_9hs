@@ -1,4 +1,5 @@
 import React from "react";
+import '../styles/NosotrosPage.css';
 
 const NosotrosPage= (props)=> {
 
@@ -37,7 +38,7 @@ const NosotrosPage= (props)=> {
               <h6>Puesto de la Persona 2</h6>
             </div>
             <div className="persona">
-                            <h5>Nombre de la Persona 3</h5>
+            <h5>Nombre de la Persona 3</h5>
               <h6>Puesto de la Persona 3</h6>
             </div>
           </div>

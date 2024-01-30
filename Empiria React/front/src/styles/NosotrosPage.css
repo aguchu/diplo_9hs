@@ -1,0 +1,46 @@
+.nosotros{
+    font-size: 16px;
+}
+
+
+.equipo {
+    width: 100%;
+    margin-bottom: 30px;
+
+}
+
+.equipo-personas {
+    display: flex;
+    flex-wrap: wrap; /* Hace que los elementos fluyan hacia una nueva línea si no caben en la misma fila */
+    justify-content: space-between;
+
+    
+}
+
+.columnas {
+    flex: 1; /* Las columnas se ajustarán automáticamente al mismo ancho */
+    text-align: center;
+}
+
+.persona {
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 18%;
+    text-align: center;
+    padding: 13px;
+    box-sizing: border-box;
+    margin-bottom: 10px; /* Agrega espacio entre las personas */
+}
+
+.persona img {
+    border-radius: 50%;
+}
+
+.persona h5 {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.persona h6 {
+    font-size: 14px;
+}

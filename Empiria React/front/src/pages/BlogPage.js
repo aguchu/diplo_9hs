@@ -1,5 +1,5 @@
 import React from "react";
-
+import '../styles/BlogPage.css';
 const BlogPage= (props)=> {
 
     return (
