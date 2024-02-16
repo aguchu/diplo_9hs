@@ -8,11 +8,13 @@ require ('dotenv').config();
 var pool= require('./models/base');
 var session= require('express-session');
 var fileUpload = require ('express-fileupload');
+var cors = require ('cors');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var loginRouter = require('./routes/admin/login');
 var adminRouter = require('./routes/admin/blog');
+var apiRouter = require ('./routes/api');
 
 var app = express();
 
@@ -56,6 +58,7 @@ app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/admin/login', loginRouter);
 app.use('/admin/blog',secured, adminRouter);
+app.use('/api',cors(), apiRouter);
 
 pool.query('select * from usuarios').then (function (resultados){
   console.log (resultados)
