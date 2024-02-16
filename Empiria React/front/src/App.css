@@ -64,3 +64,18 @@ h6 {
   color: #777;
   margin-bottom: 15px;
 }
+
+@media screen and (max-width: 768px) {
+  nav {
+    margin-left: 0; 
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav ul li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}

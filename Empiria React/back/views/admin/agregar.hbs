@@ -1,0 +1,30 @@
+<h3 class="text-center mt-4">Agregar Nuevo Post de Blog</h3>
+
+<div class="container mt-4" style="margin: 100px auto;">
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <form action="/admin/blog/agregar" method="post">
+                <div class="form-group">
+                    <label for="titulo" class="d-block mb-2"><i class="fas fa-heading"></i> Título:</label>
+                    <input type="text" id="titulo" name="titulo" required aria-describedby="nombre-error" class="form-control mb-3">
+                    
+                </div>
+                <div class="form-group">
+                    <label for="subtitulo" class="d-block mb-2"><i class="fas fa-heading"></i> Subtítulo:</label>
+                    <input type="text" id="subtitulo" name="subtitulo" required aria-describedby="nombre-error" class="form-control mb-3">
+                
+                </div>
+                <div class="form-group">
+                    <label for="cuerpo" class="d-block mb-2"><i class="fas fa-file-alt"></i> Cuerpo:</label>
+                    <textarea id="cuerpo" name="cuerpo" required aria-describedby="nombre-error" rows="8" class="form-control mb-3"></textarea>
+                
+                </div>
+                <button type="submit" class="btn btn-success"><i class="fas fa-upload"></i> Publicar Entrada de
+                    Blog</button>
+            </form>
+            {{#if error}}
+            <h5>{{message}}</h5>
+            {{/if}}
+        </div>
+    </div>
+</div>

@@ -1,0 +1,82 @@
+.servicios-container {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.servicios-container h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.servicios-container ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.servicios-container li {
+    width: 48%;
+    margin: 1%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+    
+}
+
+.servicios-container li:hover {
+    transform: scale(1.05);
+}
+
+.servicios-container .icono {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.servicios-container h3 {
+    margin-bottom: 8px;
+    font-size: 18px;
+    background-color: burlywood;
+    padding: 5px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.servicios-container p {
+    font-size: 16px;
+}
+
+.contact-button {
+    background-color: burlywood;
+    color: black;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: auto; 
+    align-self: center; 
+}
+
+.contact-button:hover {
+    background-color: #0056b3;
+}
+
+.servicios-container ul li div p {
+    text-align: justify;
+  }

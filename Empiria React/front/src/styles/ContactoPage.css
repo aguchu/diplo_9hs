@@ -1,36 +1,59 @@
-
-
-.contacto {
+.contacto-container {
     display: flex;
+    justify-content: center;
     gap: 24px;
+    background-color: #f5f5f5;
+    padding: 40px;
+    flex-wrap: wrap;
+    margin-left: 310px;
+    margin-right: 310px;
 }
 
-.contacto div{
+.h2-contacto {
     width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
-.formulario {
-    width: 400px;
+.datos h3 {
+        margin-top: 10px; 
+}
+
+.formulario,
+.datos {
+    max-width: 400px;
+    width: 100%;
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
-label {
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.label {
     display: block;
     margin-bottom: 8px;
-    color: #555;
+    color: #333;
 }
 
-input, textarea {
+.input-container {
     width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
+}
+
+input,
+textarea {
+    width: calc(100% - 20px);
+    padding: 12px;
+    margin-bottom: 16px;
     box-sizing: border-box;
     border: 1px solid #ccc;
-    border-radius: 3px;
-    font-size: 14px;
+    border-radius: 4px;
+    font-size: 16px;
 }
 
 textarea {
@@ -38,22 +61,35 @@ textarea {
 }
 
 input[type="submit"] {
-    background-color: black;
+    background-color: burlywood;
     color: #fff;
-    padding: 10px;
+    padding: 12px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
 }
 
 input[type="submit"]:hover {
-    background-color: black;
+    background-color: #0056b3;
 }
 
+.datos {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-top: 45px; 
+    width: 300px; 
+    height: 300px; 
+
+}
 
 .redes-sociales {
-    margin-top: 15px;
+    margin-top: 3px;
+    margin-bottom: 30px;
 }
 
 .redes-sociales a {
@@ -62,4 +98,14 @@ input[type="submit"]:hover {
     color: #007bff;
     text-decoration: none;
     font-size: 16px;
+}
+
+.contacto-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; 
+}
+
+.contacto-item svg {
+    margin-right: 10px; 
 }
