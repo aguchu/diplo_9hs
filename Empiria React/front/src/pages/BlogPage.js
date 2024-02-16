@@ -20,8 +20,7 @@ const BlogPage= (props)=> {
 
     return (
         <section className="holder">
-            <h2>Blog</h2>
-            {loading ?(
+                        {loading ?(
                 <p>Cargando...</p>
             ) : (
                 blog.map (item=> <BlogItem 

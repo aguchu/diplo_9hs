@@ -15,6 +15,7 @@ nav {
   position: relative;
   bottom: 10px;
   margin-left: 350px;
+  margin-bottom: 20px;
 }
 
 nav ul {
@@ -47,7 +48,7 @@ footer {
   color: white;
   text-align: center;
   padding: 5px 0;
-  margin-top: 20px;
+  margin-top: auto;
 }
 
 nav ul li a.activo {
