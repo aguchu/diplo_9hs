@@ -32,7 +32,7 @@ const ContactoPage = (props) => {
                 </form>
             </div>
             <div className="datos">
-                <h3>Otras Vías de Comunicación</h3>
+                <h4>Otras Vías de Comunicación</h4>
                 <ul>
                     <li className="contacto-item">
                         <FontAwesomeIcon icon={faPhone} />
@@ -48,7 +48,7 @@ const ContactoPage = (props) => {
                         Buenos Aires, Argentina
                     </li>
                 </ul>
-                <h3>Redes Sociales</h3>
+                <h4>Redes Sociales</h4>
                 <ul className="redes-sociales">
                     <li>
                         <FontAwesomeIcon icon={faFacebook} />
